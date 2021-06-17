@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsStok" targetNamespace="http://tempuri.org/dsStok.xsd" xmlns:mstns="http://tempuri.org/dsStok.xsd" xmlns="http://tempuri.org/dsStok.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsStok" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsStok" msprop:Generator_UserDSName="dsStok">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dsStok" msprop:Generator_TableClassName="dsStokDataTable" msprop:Generator_TableVarName="tabledsStok" msprop:Generator_RowChangedName="dsStokRowChanged" msprop:Generator_TablePropName="_dsStok" msprop:Generator_RowDeletingName="dsStokRowDeleting" msprop:Generator_RowChangingName="dsStokRowChanging" msprop:Generator_RowEvHandlerName="dsStokRowChangeEventHandler" msprop:Generator_RowDeletedName="dsStokRowDeleted" msprop:Generator_RowClassName="dsStokRow" msprop:Generator_UserTableName="dsStok" msprop:Generator_RowEvArgName="dsStokRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="No" msprop:Generator_ColumnVarNameInTable="columnNo" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_UserColumnName="No" type="xs:int" minOccurs="0" />
+              <xs:element name="Tür" msprop:Generator_ColumnVarNameInTable="columnTür" msprop:Generator_ColumnPropNameInRow="Tür" msprop:Generator_ColumnPropNameInTable="TürColumn" msprop:Generator_UserColumnName="Tür" type="xs:string" minOccurs="0" />
+              <xs:element name="Ürün" msprop:Generator_ColumnVarNameInTable="columnÜrün" msprop:Generator_ColumnPropNameInRow="Ürün" msprop:Generator_ColumnPropNameInTable="ÜrünColumn" msprop:Generator_UserColumnName="Ürün" type="xs:string" minOccurs="0" />
+              <xs:element name="Stok" msprop:Generator_ColumnVarNameInTable="columnStok" msprop:Generator_ColumnPropNameInRow="Stok" msprop:Generator_ColumnPropNameInTable="StokColumn" msprop:Generator_UserColumnName="Stok" type="xs:int" minOccurs="0" />
+              <xs:element name="Fiyat" msprop:Generator_ColumnVarNameInTable="columnFiyat" msprop:Generator_ColumnPropNameInRow="Fiyat" msprop:Generator_ColumnPropNameInTable="FiyatColumn" msprop:Generator_UserColumnName="Fiyat" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Kart" msprop:Generator_ColumnVarNameInTable="columnKart" msprop:Generator_ColumnPropNameInRow="Kart" msprop:Generator_ColumnPropNameInTable="KartColumn" msprop:Generator_UserColumnName="Kart" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
